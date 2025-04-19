@@ -1,0 +1,15 @@
+.hd{
+    animation: animate3 2s linear infinite;
+}
+
+@keyframes animate3 {
+    0%{
+        box-shadow: 0 4px 8px 0 rgb(255, 3, 3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    50%{
+        box-shadow: 0 4px 8px 0 rgb(32, 255, 3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    100%{
+        box-shadow: 0 4px 8px 0 rgb(255, 3, 154), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}

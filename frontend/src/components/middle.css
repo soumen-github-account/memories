@@ -1,0 +1,48 @@
+/* .lines{
+    position: absolute;
+    background: black;
+}
+
+.lines::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 120px;
+    background: linear-gradient(transparent, #45f3ff,#45f3ff,#45f3ff,transparent);
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+    0%{
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(160deg);
+    }
+}
+
+.lines::after{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #252929;
+} */
+.lines{
+    /* box-shadow: 0 4px 8px 0 rgb(255, 3, 3), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    animation: animate2 2s linear infinite;
+}
+
+@keyframes animate2 {
+    0%{
+        box-shadow: 0 4px 8px 0 rgb(255, 3, 3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    50%{
+        box-shadow: 0 4px 8px 0 rgb(32, 255, 3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    100%{
+        box-shadow: 0 4px 8px 0 rgb(255, 3, 154), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
